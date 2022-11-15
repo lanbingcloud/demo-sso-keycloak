@@ -5,3 +5,4 @@ resources:
 - keycloak-ingress.yaml
 patchesStrategicMerge:
 - keycloak-svc-patch.yaml
+namespace: keycloak
