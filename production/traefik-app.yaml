@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: demo-vcluster
+  project: demo-sso-keycloak
   source:
     chart: traefik
     repoURL: https://helm.traefik.io/traefik
